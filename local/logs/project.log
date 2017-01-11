@@ -1,48 +1,48 @@
-2017-01-11T03:55:52.810Z - normal: Load ~/.CocosCreator/settings.json
-2017-01-11T03:55:52.814Z - normal: checking language setting...
-2017-01-11T03:55:52.814Z - normal: Language: zh
-2017-01-11T03:55:53.917Z - success: protocol editor-framework registered
-2017-01-11T03:55:53.917Z - success: protocol app registered
-2017-01-11T03:55:53.917Z - success: protocol packages registered
-2017-01-11T03:55:53.918Z - success: protocol theme registered
-2017-01-11T03:55:53.918Z - success: protocol unpack registerred
-2017-01-11T03:55:54.492Z - normal: connected!
-2017-01-11T03:55:54.503Z - normal: Check project G:\Users\Rares\Documents\Cocoscreator-socketio\client
-2017-01-11T03:55:54.511Z - normal: Initializing Cocos Creator Editor
-2017-01-11T03:55:54.820Z - normal: Initializing Cocos2d
-2017-01-11T03:55:55.044Z - normal: Initializing Asset Database
-2017-01-11T03:55:55.066Z - success: protocol uuid registerred
-2017-01-11T03:55:55.066Z - success: protocol db registerred
-2017-01-11T03:55:55.066Z - success: protocol thumbnail registerred
-2017-01-11T03:55:55.066Z - normal: Loading editor/builtin packages
-2017-01-11T03:55:55.178Z - success: assets loaded
-2017-01-11T03:55:55.180Z - success: builder loaded
-2017-01-11T03:55:55.182Z - success: hierarchy loaded
-2017-01-11T03:55:55.185Z - success: inspector loaded
-2017-01-11T03:55:55.187Z - success: keystore loaded
-2017-01-11T03:55:55.189Z - success: node-library loaded
-2017-01-11T03:55:55.191Z - success: preferences loaded
-2017-01-11T03:55:55.207Z - success: project-importer loaded
-2017-01-11T03:55:55.208Z - success: project-settings loaded
-2017-01-11T03:55:55.210Z - success: ui-kit loaded
-2017-01-11T03:55:55.212Z - success: ui-grid loaded
-2017-01-11T03:55:55.214Z - success: scene loaded
-2017-01-11T03:55:55.215Z - success: sprite-editor loaded
-2017-01-11T03:55:55.220Z - success: timeline loaded
-2017-01-11T03:55:55.220Z - normal: Loading builtin packages
-2017-01-11T03:55:55.223Z - success: asset-db-debugger loaded
-2017-01-11T03:55:55.224Z - success: code-editor loaded
-2017-01-11T03:55:55.225Z - success: color-picker loaded
-2017-01-11T03:55:55.227Z - success: console loaded
-2017-01-11T03:55:55.229Z - success: package-manager loaded
-2017-01-11T03:55:55.232Z - success: tester loaded
-2017-01-11T03:55:55.234Z - success: ui-kit-preview-extra loaded
-2017-01-11T03:55:55.235Z - success: ui-kit-preview loaded
-2017-01-11T03:55:55.236Z - success: ui-tree loaded
-2017-01-11T03:55:55.277Z - normal: Initializing project G:\Users\Rares\Documents\Cocoscreator-socketio\client
-2017-01-11T03:55:55.279Z - warn: Profile local-local warning: reset profile field: last-edit
-2017-01-11T03:55:55.281Z - normal: Loading packages
-2017-01-11T03:55:55.285Z - normal: Watching packages
-2017-01-11T03:55:55.296Z - normal: Run Application
-2017-01-11T03:55:55.670Z - success: preview server running at http://localhost:7456
-2017-01-11T03:56:00.045Z - normal: 1.3.3
+2017-01-11T07:36:53.468Z - normal: Load ~/.CocosCreator/settings.json
+2017-01-11T07:36:53.474Z - normal: checking language setting...
+2017-01-11T07:36:53.474Z - normal: Language: zh
+2017-01-11T07:36:53.515Z - success: protocol editor-framework registered
+2017-01-11T07:36:53.515Z - success: protocol app registered
+2017-01-11T07:36:53.516Z - success: protocol packages registered
+2017-01-11T07:36:53.516Z - success: protocol theme registered
+2017-01-11T07:36:53.516Z - success: protocol unpack registerred
+2017-01-11T07:36:54.358Z - normal: connected!
+2017-01-11T07:36:54.364Z - normal: Check project /Users/wuchicheng/githup/cocoscreator-socketio-chat
+2017-01-11T07:36:54.367Z - normal: Initializing Cocos Creator Editor
+2017-01-11T07:36:55.004Z - normal: Initializing Cocos2d
+2017-01-11T07:36:55.368Z - normal: Initializing Asset Database
+2017-01-11T07:36:55.400Z - success: protocol uuid registerred
+2017-01-11T07:36:55.400Z - success: protocol db registerred
+2017-01-11T07:36:55.400Z - success: protocol thumbnail registerred
+2017-01-11T07:36:55.401Z - normal: Loading editor/builtin packages
+2017-01-11T07:36:55.612Z - success: assets loaded
+2017-01-11T07:36:55.617Z - success: builder loaded
+2017-01-11T07:36:55.625Z - success: hierarchy loaded
+2017-01-11T07:36:55.634Z - success: inspector loaded
+2017-01-11T07:36:55.637Z - success: keystore loaded
+2017-01-11T07:36:55.644Z - success: node-library loaded
+2017-01-11T07:36:55.651Z - success: preferences loaded
+2017-01-11T07:36:55.676Z - success: project-importer loaded
+2017-01-11T07:36:55.679Z - success: project-settings loaded
+2017-01-11T07:36:55.687Z - success: ui-kit loaded
+2017-01-11T07:36:55.693Z - success: ui-grid loaded
+2017-01-11T07:36:55.701Z - success: scene loaded
+2017-01-11T07:36:55.702Z - success: sprite-editor loaded
+2017-01-11T07:36:55.711Z - success: timeline loaded
+2017-01-11T07:36:55.711Z - normal: Loading builtin packages
+2017-01-11T07:36:55.717Z - success: asset-db-debugger loaded
+2017-01-11T07:36:55.720Z - success: code-editor loaded
+2017-01-11T07:36:55.722Z - success: color-picker loaded
+2017-01-11T07:36:55.730Z - success: console loaded
+2017-01-11T07:36:55.734Z - success: package-manager loaded
+2017-01-11T07:36:55.738Z - success: tester loaded
+2017-01-11T07:36:55.742Z - success: ui-kit-preview-extra loaded
+2017-01-11T07:36:55.747Z - success: ui-kit-preview loaded
+2017-01-11T07:36:55.752Z - success: ui-tree loaded
+2017-01-11T07:36:55.795Z - normal: Initializing project /Users/wuchicheng/githup/cocoscreator-socketio-chat
+2017-01-11T07:36:55.800Z - normal: Loading packages
+2017-01-11T07:36:55.806Z - normal: Watching packages
+2017-01-11T07:36:55.818Z - normal: Run Application
+2017-01-11T07:36:56.551Z - success: preview server running at http://localhost:7456
+2017-01-11T07:37:01.313Z - normal: 1.3.3
+2017-01-11T07:38:24.865Z - info: shutdown preview server

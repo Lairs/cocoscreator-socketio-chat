@@ -1,2 +1,2 @@
-# cocoscreator-socketio-chat
-Trying to init project
+# hello-world
+Hello world new project template.

@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAI,WAAW,GAAG,EAAE,CAAC,IAAI,CAAC;AACtB,SAAK,EAAC,CAAC;CACV,CAAC,CAAC;;AAEH,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,EAAE,CAAC,SAAS;;AAErB,cAAU,EAAE;;AAER,iBAAS,EAAC;AACN,uBAAQ,WAAW,CAAC,KAAK;AACzB,gBAAI,EAAC,WAAW;SACnB;;KAEJ;;;AAGD,UAAM,EAAE,kBAAY,EAEnB;;;;;;AAMD,gBAAY,EAAC,sBAAS,CAAC,EACvB;AACI,gBAAQ,IAAI,CAAC,SAAS;AAClB,iBAAK,WAAW,CAAC,KAAK;;AAElB,uBAAO,CAAC,GAAG,CAAC,uBAAuB,CAAC,CAAC;;AAErC,kBAAE,CAAC,YAAY,CAAC,mBAAmB,CAAC,OAAO,EAAC;AACxC,uBAAG,EAAC,EAAE,CAAC,IAAI,CAAC,iCAAiC,CAAC,CAAC,YAAY,CAAC,EAAE,CAAC,OAAO,CAAC,CAAC,MAAM;AAC9E,sBAAE,EAAC,EAAE,CAAC,IAAI,CAAC,iCAAiC,CAAC,CAAC,YAAY,CAAC,EAAE,CAAC,OAAO,CAAC,CAAC,MAAM,EAAC,CACjF,CAAC;AACF,sBAAM;AAAA,AACV;;AAEI,uBAAO,CAAC,GAAG,CAAC,cAAc,CAAC,CAAC;AAAA,SACnC;KACJ;CACJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "var uiEvetnType = cc.Enum({\n    logIn:0,\n});\n\ncc.Class({\n    extends: cc.Component,\n\n    properties: {\n        \n        eventType:{\n            default:uiEvetnType.logIn,\n            type:uiEvetnType\n        }\n        \n    },\n\n    // use this for initialization\n    onLoad: function () {\n\n    },\n\n    // called every frame, uncomment this function to activate update callback\n    // update: function (dt) {\n\n    // },\n    onClickEvent:function(e)\n    {\n        switch (this.eventType) {\n            case uiEvetnType.logIn:\n                // code\n                console.log(\"Dispatch custom event\");\n                //collect input event? or send event and let information collect by others?\n                cc.eventManager.dispatchCustomEvent(\"logIn\",{\n                    acc:cc.find('Canvas/InputLayer/UserNameInput').getComponent(cc.EditBox).string,\n                    pw:cc.find('Canvas/InputLayer/PasswordInput').getComponent(cc.EditBox).string}\n                );\n                break;\n            default:\n                // code\n                console.log(\"unknow event\");\n        }\n    }\n});\n"
+  ]
+}

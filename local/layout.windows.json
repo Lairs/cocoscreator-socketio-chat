@@ -2,10 +2,92 @@
   "version": "1.1.0",
   "windows": {
     "main": {
-      "x": 320,
-      "y": 180,
-      "width": 1280,
-      "height": 720
+      "x": 0,
+      "y": 23,
+      "width": 1440,
+      "height": 821,
+      "layout": {
+        "children": [
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "hierarchy"
+                ],
+                "height": 364,
+                "type": "panel",
+                "width": 200
+              },
+              {
+                "active": 0,
+                "children": [
+                  "assets"
+                ],
+                "height": 363,
+                "type": "panel",
+                "width": 200
+              }
+            ],
+            "height": 730,
+            "type": "dock-v",
+            "width": 200
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "active": 0,
+                    "children": [
+                      "scene"
+                    ],
+                    "height": 364,
+                    "type": "panel",
+                    "width": 625
+                  },
+                  {
+                    "active": 0,
+                    "children": [
+                      "node-library"
+                    ],
+                    "height": 364,
+                    "type": "panel",
+                    "width": 300
+                  }
+                ],
+                "height": 364,
+                "type": "dock-h",
+                "width": 928
+              },
+              {
+                "active": 0,
+                "children": [
+                  "console",
+                  "timeline"
+                ],
+                "height": 363,
+                "type": "panel",
+                "width": 928
+              }
+            ],
+            "height": 730,
+            "type": "dock-v",
+            "width": 928
+          },
+          {
+            "active": 0,
+            "children": [
+              "inspector"
+            ],
+            "height": 730,
+            "type": "panel",
+            "width": 300
+          }
+        ],
+        "snapshot": true,
+        "type": "dock-h"
+      }
     }
   }
 }
